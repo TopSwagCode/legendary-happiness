@@ -93,6 +93,6 @@ $ docker compose up -d
 -d is for detached. I just like to have control of my terminal afterwards.
 
 
-2. Navigate to [http://localhost:5000](http://localhost:5000) to see the "Hello World!" response.
+2. Navigate to [http://yourip:5000](http://yourip:5000) to see the "Hello World!" response.
 
 This setup isolates build and runtime, keeps the image lean, and maps port 5000 on your host to the container.
